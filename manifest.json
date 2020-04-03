@@ -1,0 +1,32 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_icon": "icon_128.png"
+   },
+   "description": "A weibo app for you when you're working.一款跟原生客户端体验一致的微博桌面客户端。",
+   "icons": {
+      "128": "icon_128.png",
+      "512": "icon_512.png"
+   },
+   "commands": {
+      "_execute_browser_action": {
+         "suggested_key": {
+            "default": "Ctrl+Shift+A",
+            "mac": "MacCtrl+Shift+A"
+         },
+         "description": "Open the Weibo"
+      }
+   },
+   "manifest_version": 2,
+   "name": "App for Weibo",
+   "permissions": [
+      "tabs",
+      "system.display",
+      "http://*/*",
+      "https://*/*"
+   ],
+   "homepage_url": "https://www.zhihu.com/people/huang-jun-jie-51",
+   "version": "1.0.0"
+}
